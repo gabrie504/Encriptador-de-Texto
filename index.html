@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Desencriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img class="logo" src="imagenes/PNG_LETRA NEGRO.png" alt="logo">
+        </figure>
+    </header>
+    <main>
+        <section>
+            <textarea placeholder="Ingrese el texto aqui" name="caja" cols="30" rows="10" id="texto1"></textarea>
+        </section>
+
+        <section class="rectangulo">
+            <textarea name="desencriptado" id="msj_des" cols="30" rows="10"></textarea>
+
+            <figure class="logo-espera">
+                <img id="logo2" src="imagenes/senal-de-sala-de-espera.png" alt="Icono de espera">
+                
+                <div class="info-espera">
+                    <h2>Ningun mensaje fue encontrado</h2>
+                    <p class="text-desen">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </figure>
+
+            <button class="boton-copiar" onclick="copiar_texto()">Copiar</button>
+        </section>
+
+        <p class="p-final">solo letras minusculas y sin acento</p>
+        
+        <section class="botones">
+
+          <button class="boton1" onclick="encriptar()">Encriptar</button>
+          <button class="boton2" onclick="desencriptar()">Desencriptar</button>
+        </section>
+
+        
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

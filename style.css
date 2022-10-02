@@ -1,0 +1,165 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 7%;
+}
+
+.rectangulo{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 90%;
+    background: gray;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    border-radius: 10px;
+    margin: 20px 80px 20px 20px ;
+    opacity: 0.6;
+}
+
+
+#logo2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+
+.rotulo-caja{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+textarea{
+    position: relative;
+    display: flex;
+    width: 476px;
+    height: 299px;
+    margin: 10px 35px;
+    opacity: 0.5;
+    
+}
+
+textarea:focus{
+    opacity: 1;
+}
+
+.text-desen{
+    font-weight: bold;
+}
+
+.p-final{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 70px;
+    position: absolute;
+    bottom: 150px;
+}
+
+.botones{
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boton1{
+        /* Button */
+
+
+    /* Auto layout */
+    padding: 24px;
+    gap: 8px;
+
+    width: 150px;
+    height: 35px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+
+}
+
+.boton1:hover{
+    background: #0A3835;
+}
+
+.boton2{
+    /* Button */
+
+
+    /*box-sizing: border-box;*/
+
+    /* Auto layout */
+
+    padding: 24px;
+    gap: 8px;
+
+    width: 150px;
+    height: 35px;
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+}
+
+.boton2:hover{
+    background: #0A3835;
+    color: white;
+}
+
+.boton-copiar{
+        /* Button */
+
+
+    /*box-sizing: border-box;*/
+
+    /* Auto layout */
+
+    padding: 24px;
+    gap: 8px;
+
+    width: 150px;
+    height: 35px;
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    position: absolute;
+    left: 72px;
+    bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.boton-copiar:hover{
+    background: #0A3835;
+    color: white;
+}
+
+#msj_des{
+    position: absolute;
+    width: 78%;
+    opacity: 0;
+}
+
+/*
+#msj-des:write{
+    opacity: 1;
+}
+*/
+
